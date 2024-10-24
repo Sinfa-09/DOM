@@ -1,0 +1,25 @@
+#tablero{
+    border: solid;
+    min-height: 300px;
+    border-spacing: 0;
+    font-size: 36pt;
+}
+ 
+.casilla{
+    border: solid 1px;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 5ms;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+    
+}
+.casilla:hover  {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(.5);
+}
